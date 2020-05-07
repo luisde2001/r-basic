@@ -49,7 +49,7 @@ NaN
 
 c(2^30, 2^(-15), 1, 2, 3/2)
 
-
+# COMBINATORIA
 sqrt(25)
 
 exp(1)
@@ -69,7 +69,7 @@ factorial(4)
 
 factorial(0)
 
-choose(5, 3)
+choose(5, 3) #binomios (5 sobre 3) /n sobre m es n!/m!(n-m)!
 
 choose(3,5)
 
@@ -79,7 +79,9 @@ log(4^6, 4)
 
 choose(5,2)
 
-sin(60*pi/180)
+
+#FUNCIONES TRIGONOMÉTRICAS
+sin(60*pi/180) #Siempre en radianes
 
 cos(60*pi/180)
 
@@ -97,6 +99,7 @@ asin(5) #arc sin x in [-1,1]
 
 acos(-8)
 
+# REDONDEOS Y DECIMALES
 print(sqrt(2),10)
 round(sqrt(2), 3)
 floor(sqrt(2))
@@ -127,7 +130,7 @@ floor(-3.45)
 ceiling(-3.45)
 trunc(-3.45)
 
-
+# VARIABLES
 x = (pi^2)/2
 x
 
@@ -151,6 +154,8 @@ x = 2
 x = x^2
 
 x = sqrt(x)
+
+#FUNCIONES
 
 ## Función f(x) = x^3 - (3^x)* sen(x)
 f = function(x) {
